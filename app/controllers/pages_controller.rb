@@ -6,9 +6,6 @@ class PagesController < ApplicationController
  def Sexual_assault1
  end
 
- def Sti
- end
-
 	def Conerceptive_Plan_B
 	end
 
@@ -20,6 +17,5 @@ class PagesController < ApplicationController
 
 	def landing
 	end
-
 
 end

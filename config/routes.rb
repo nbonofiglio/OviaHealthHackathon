@@ -4,7 +4,7 @@ Rails.application.routes.draw do
 
 get 'pages/Sexual_assault1'
   authenticated :user do
-   root 'pages#Sti', as: :authenticated_root
+   root 'pages#landing', as: :authenticated_root
  end
 
 
@@ -15,7 +15,7 @@ get 'pages/India_summary'
 
 
 
-	root 'pages#home'
+	root 'pages#landing'
 
 
   #
