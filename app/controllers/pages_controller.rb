@@ -3,9 +3,12 @@ class PagesController < ApplicationController
 	def home
 	end
 
- def Sexual_assault1
- end
+	def landing
+	end
 
+	def Sexual_assault1
+	end
+	
 	def Conerceptive_Plan_B
 	end
 
