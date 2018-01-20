@@ -8,6 +8,7 @@ Rails.application.routes.draw do
 get 'pages/Sexual_assult1'
 get 'pages/Sti'
 
+
 	root 'pages#home'
 
 
