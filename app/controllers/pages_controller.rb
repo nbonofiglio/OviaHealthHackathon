@@ -21,5 +21,8 @@ class PagesController < ApplicationController
 	def landing
 	end
 
+	def Sweden_summary
+	end 
+
 
 end

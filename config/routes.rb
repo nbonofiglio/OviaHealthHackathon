@@ -12,6 +12,7 @@ get 'pages/Prenatal_sweden'
 
 get 'pages/landing'
 get 'pages/India_summary'
+get 'pages/Sweden_summary'
 
 
 
