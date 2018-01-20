@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <h1>Hi <%= @user.emergency_contact_name %></h1>
+    <p>
+      This is an emergency email from <%= "#{@user.first_name} #{@user.last_name}" %>
+    </p>
+  </body>
+</html>
