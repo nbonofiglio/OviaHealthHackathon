@@ -15,4 +15,11 @@ class PagesController < ApplicationController
    def Prenavite
 	 end
 
+   def India_summary
+	 end
+
+	def landing
+	end
+
+
 end
