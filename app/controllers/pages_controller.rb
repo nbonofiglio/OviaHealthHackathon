@@ -12,7 +12,7 @@ class PagesController < ApplicationController
 	def Conerceptive_Plan_B
 	end
 
-   def Prenavite
+   def Prenatal_sweden
 	 end
 
 end

@@ -8,7 +8,7 @@ get 'pages/Sexual_assault1'
  end
 
 
-get 'pages/Sti'
+get 'pages/Prenatal_sweden'
 
 
 	root 'pages#home'
