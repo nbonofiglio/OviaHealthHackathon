@@ -3,24 +3,13 @@ class PagesController < ApplicationController
 	def home
 	end
 
-<<<<<<< HEAD
 	def landing
 	end
 
-end
-=======
- def Sexual_assult1
- end
-
- def Sti
- end
-
-	def Conerceptive_Plan_B
+	def Sexual_assault1
 	end
 
-   def Prenavite
-	 end
-
+  def Prenatal
+	end
 
 end
->>>>>>> c60709bb3d1373d884187d7356a7d67b5711604b

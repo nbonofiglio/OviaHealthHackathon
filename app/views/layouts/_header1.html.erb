@@ -15,6 +15,11 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <% if user_signed_in? %>
+        <li><%= link_to "Home", landing_path %></li>
+        <li><%= link_to "Sexual Assault", edit_user_registration_path %></li>
+        <li><%= link_to "STI", edit_user_registration_path %></li>
+        <li><%= link_to "Prenatal", edit_user_registration_path %></li>
+        <li><%= link_to "Contraceptive", edit_user_registration_path %></li>
         <li><%= link_to "Account", edit_user_registration_path %></li>
         <li><%= link_to "Log out", destroy_user_session_path, method: :delete %></li> 
         <% else %>
