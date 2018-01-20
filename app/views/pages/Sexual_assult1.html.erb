@@ -1,0 +1,27 @@
+<% provide(:title, "Sexual_assult1") %>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<h1>Sexual Assault</h1>
+
+<h2>Local Medical Centers</h2>
+
+<%= content_tag(:iframe,'', width: 400, height: 300, src: "https://www.google.com/maps/embed/v1/search
+	?key=AIzaSyBtiB6Lnc8zSXP_vWAbkvusHkncFd52iiw
+	&q=medical+centers+in+#{current_user.current_location}") %>
+
+<h2>Transportation Services</h2>
+<button type="button" name="Uber"></button>
+<button type="button" name="Lyft"></button>
+
+
+<h2>articles</h2>
+<ul>
+  <li>place holder</li>
+  <li>place holder</li>
+</ul>
+
+</body>
+</html>

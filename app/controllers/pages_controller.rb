@@ -3,11 +3,12 @@ class PagesController < ApplicationController
 	def home
 	end
 
- def Sexual_assault1
- end
+	def landing
+	end
 
- def Sti
- end
+	def Sexual_assault1
+	end
+
 
 	def Conerceptive_Plan_B
 	end
@@ -18,11 +19,7 @@ class PagesController < ApplicationController
    def India_summary
 	 end
 
-	def landing
-	end
-
 	def Sweden_summary
 	end 
 
-
-end
+end 
