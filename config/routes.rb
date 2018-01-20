@@ -10,6 +10,7 @@ get 'pages/Sexual_assault1'
 
 get 'pages/Sti'
 
+
 	root 'pages#home'
 
 
