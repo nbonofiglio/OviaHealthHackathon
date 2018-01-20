@@ -14,7 +14,8 @@ User.create!([{
   last_period_start: DateTime.new(2017,9,1.5), 
   pregnancy_week: 18, 
   emergency_contact_name: "Best friend",
-  emergency_contact_email: "margaryta@gmail.com"
+  emergency_contact_email: "margaryta@gmail.com", 
+  current_location: "6 Kungsportsavenyen, Gothenburg 411 36, Sweden"
   },
   {
   first_name: "Betty", 
@@ -25,7 +26,8 @@ User.create!([{
   date_of_birth: DateTime.new(1990,5,6.5), 
   last_period_start: DateTime.new(2018,1,5), 
   emergency_contact_name: "Husband",
-  emergency_contact_email: "margaryta@gmail.com"
+  emergency_contact_email: "margaryta@gmail.com", 
+  current_location: "1 Community Centre Plot No, New Delhi 110020, India"
   }])
 
 
