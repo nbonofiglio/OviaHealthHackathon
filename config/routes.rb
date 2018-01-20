@@ -10,6 +10,10 @@ get 'pages/Sexual_assault1'
 
 get 'pages/Prenatal_sweden'
 
+get 'pages/landing'
+get 'pages/India_summary'
+
+
 
 	root 'pages#home'
 
