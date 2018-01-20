@@ -26,7 +26,7 @@ User.create!([{
   date_of_birth: DateTime.new(1990,5,6.5), 
   last_period_start: DateTime.new(2018,1,5), 
   emergency_contact_name: "Husband",
-  emergency_contact_email: "margaryta@gmail.com", 
+  emergency_contact_email: "nicholas.bonofiglio@gmail.com", 
   current_location: "1 Community Centre Plot No, New Delhi 110020, India"
   }])
 
