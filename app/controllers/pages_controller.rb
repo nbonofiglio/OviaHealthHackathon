@@ -3,7 +3,7 @@ class PagesController < ApplicationController
 	def home
 	end
 
- def Sexual_assult1
+ def Sexual_assault1
  end
 
  def Sti
@@ -14,6 +14,5 @@ class PagesController < ApplicationController
 
    def Prenavite
 	 end
-
 
 end
