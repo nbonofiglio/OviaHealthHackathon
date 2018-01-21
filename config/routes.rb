@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
 root 'pages#landing'
 get 'landing' => 'pages#landing'
-get 'pages/Sexual_assult1'
+get 'pages/Sexual_assault1'
 get 'pages/Sti'
 get 'pages/Sexual_assault1'
   authenticated :user do

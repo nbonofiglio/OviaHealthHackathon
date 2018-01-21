@@ -6,10 +6,7 @@ class PagesController < ApplicationController
 	def landing
 	end
 
-	def Sexual_assault1
-	end
-	
-	def Conerceptive_Plan_B
+	def Sexual_assault
 	end
 
    def Prenatal_sweden
