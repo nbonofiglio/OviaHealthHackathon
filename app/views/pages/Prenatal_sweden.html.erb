@@ -1,4 +1,3 @@
-<% provide(:title, "Prenatal_sweden") %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,9 +20,7 @@
 
  These may or may not be indicative of a serious medical condition in the pregnancy. <b>If you encounter any of these symptoms before or during travel, please make sure to seek a healthcare provider for assessment</b>
 
- <br/>In addition, please check with your health care provider before travelling internationally to discuss the safety factors for you and your baby. Before you adventure abroad,<a href="http://americanpregnancy.org/pregnancy-health/traveling-during-pregnancy/  " target="_blank">here</a> here are some helpful items to keep in to mind as you plan your trip.</p>
-
-
+ <br/>In addition, please check with your health care provider before travelling internationally to discuss the safety factors for you and your baby. Before you adventure abroad,<a href="http://americanpregnancy.org/pregnancy-health/traveling-during-pregnancy/  " target="_blank">here</a> are some helpful items to keep in to mind as you plan your trip.</p>
  </div>
 
 
@@ -34,10 +31,7 @@
 
 <h2>Locations of nearest medical clinics </h2>
 
-<%= content_tag(:iframe,'', width: 400, height: 300, src: "https://www.google.com/maps/embed/v1/search
-	?key=AIzaSyBtiB6Lnc8zSXP_vWAbkvusHkncFd52iiw
-	&q=medical+centers+in+#{current_user.current_location}") %>
-
+<%= display_map_with_medical_centers %>
 
 </body>
 </html>
