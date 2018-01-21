@@ -34,6 +34,8 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'jquery-rails'
 
+gem 'geocoder'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
