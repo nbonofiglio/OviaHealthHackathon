@@ -15,7 +15,4 @@ class PagesController < ApplicationController
    def India_summary
 	 end
 
-	def landing
-	end
-
 end
